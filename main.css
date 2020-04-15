@@ -1,0 +1,45 @@
+/* I used the body class for this code because I wanted it to change everything on every single page. I used a gradient background image and made all the font white. */
+body {
+  background-image:url(Images/space.jpeg);
+  background-size: cover;
+  color:white;
+  }
+/*I used the div card class to change the color of the card to black. I changed the colors using rgba values. I also made all of the text in every single div card go to the left, just to be safe I used inline styling and styling on here. I also added box shadows so the div cards could pop out.*/
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  background-color:rgba(61, 59, 59, 0.801);
+  justify-content: space-evenly;
+  display: grid;
+}
+/* I used the jumbotron div class so I could change the color of the Jumbotron, and so I could align the text to the left.*/
+ .jumbotron {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  background-color:rgba(61, 59, 59, 0.815); 
+}
+/*I also changed the nav bar to black and I added box shadowing again.*/
+ .nav{
+background-color:rgba(61, 59, 59, 0.815);
+color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  word-wrap: break-word;
+}
+
+a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+ftfr ::cue-regiont ii
